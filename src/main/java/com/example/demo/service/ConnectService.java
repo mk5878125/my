@@ -35,7 +35,7 @@ public class ConnectService {
                 //设置过滤器
                 connector.getFilterChain().addLast("logger", new LoggingFilter());
                 //配置串口连接
-                SerialAddress address = new SerialAddress("9000", 9600,
+                SerialAddress address = new SerialAddress("COM8", 115200,
                         SerialAddress.DataBits.DATABITS_8,
                         SerialAddress.StopBits.BITS_1 ,
                         SerialAddress.Parity.NONE,

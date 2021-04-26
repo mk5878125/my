@@ -15,6 +15,6 @@ public class DemoRunner implements ApplicationRunner {
 
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        connectService.sendCommand("aaa");
+        connectService.sendCommand("浙A12345时速023km/h");
     }
 }
